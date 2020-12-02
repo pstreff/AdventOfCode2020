@@ -31,7 +31,7 @@ def part2(input_file='input_test.txt'):
     for line in input_data:
         rule, char, password = process_input(line)
 
-        if (password[rule[0] -1] == char) ^ (password[rule[1] -1] == char):
+        if (password[rule[0] - 1] == char) ^ (password[rule[1] - 1] == char):
             count += 1
 
     print('Part 2: {} valid passwords'.format(count))
