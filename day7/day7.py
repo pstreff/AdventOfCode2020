@@ -56,7 +56,6 @@ def part2(file='input_test.txt'):
     input_data = process_input(file)
     required_number = resolve_bag_list(input_data['shiny gold'], input_data)
     print('Part 2: Total bags required: {}'.format(required_number))
-    pass
 
 
 part1('input.txt')

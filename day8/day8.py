@@ -33,7 +33,6 @@ def part1(file='input_test.txt'):
 
 
 def check_execution(commands, accumulator, visited_indexes, current_index, patch_list=False):
-
     while True:
         if current_index in visited_indexes:
             return None
