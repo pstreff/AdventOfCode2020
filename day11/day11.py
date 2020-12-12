@@ -58,9 +58,6 @@ def part1(file='input_test.txt'):
     print('Part 1: Total occupied places: {}'.format(total_occupied))
 
 
-cache = {}
-
-
 def find_first_visible_seat(seat_map, x, y, x_dir, y_dir):
     # go into the direction given until we find a seat (free or occupied)
     check_y = y
